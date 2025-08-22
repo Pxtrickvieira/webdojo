@@ -3,7 +3,7 @@ describe('Simulando Mouseover', () => {
         cy.start()
         cy.submitLoginForm('papito@webdojo.com', 'katana123')
 
-        cy.get('[data-cy="instagram-link"]')
+        cy.get('[data-cy="instagram-link"]').realHover()
 
     })
 })
