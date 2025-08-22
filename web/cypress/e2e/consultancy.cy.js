@@ -1,5 +1,5 @@
 describe('Formulário de Consutoria', () => {
-    it.only('Deve consultar consultoria individual', () => {
+    it('Deve consultar consultoria individual', () => {
         cy.start()
         cy.submitLoginForm('papito@webdojo.com', 'katana123')
 
