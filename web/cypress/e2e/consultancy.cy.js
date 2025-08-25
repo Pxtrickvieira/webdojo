@@ -1,9 +1,11 @@
 describe('Formulário de Consutoria', () => {
-    it('Deve consultar consultoria individual', () => {
-        cy.start()
-        cy.submitLoginForm('papito@webdojo.com', 'katana123')
-
+    beforeEach(()=>{
+        cy.login()
         cy.goTo('Formulários', 'Consultoria')
+
+    })
+    it('Deve consultar consultoria individual', () => {
+        
 
         cy.get('input[placeholder="Digite seu nome completo"]')
             .type('Fernando Papito')
@@ -91,10 +93,6 @@ describe('Formulário de Consutoria', () => {
     })
 
     it('Deve verificar os campo obrigatórios', () => {
-        cy.start()
-        cy.submitLoginForm('papito@webdojo.com', 'katana123')
-
-        cy.goTo('Formulários', 'Consultoria')
 
         cy.contains('button', 'Enviar formulário')
             .click()
