@@ -45,7 +45,7 @@ describe('Formulário de Consutoria', () => {
             .find('select')
             .select(consultancyForm.consultancyType)
 
-        if (consultancyForm.personType == 'cpf') {
+        if (consultancyForm.personaType == 'cpf') {
             cy.contains('label', 'Pessoa Física')
                 .find('input')
                 .click()
@@ -56,7 +56,7 @@ describe('Formulário de Consutoria', () => {
                 .should('be.not.checked')
         }
 
-        if (consultancyForm.personType == 'cnpj') {
+        if (consultancyForm.personaType == 'cnpj') {
             cy.contains('label', 'Pessoa Jurídica')
             cy.contains('label', 'Pessoa Física')
                 .find('input')
@@ -151,7 +151,7 @@ describe('Formulário de Consutoria', () => {
             .find('select')
             .select(consultancyForm.consultancyType)
 
-        if (consultancyForm.personType == 'cpf') {
+        if (consultancyForm.personaType == 'cpf') {
             cy.contains('label', 'Pessoa Física')
                 .find('input')
                 .click()
@@ -162,7 +162,7 @@ describe('Formulário de Consutoria', () => {
                 .should('be.not.checked')
         }
 
-        if (consultancyForm.personType == 'cnpj') {
+        if (consultancyForm.personaType == 'cnpj') {
             cy.contains('label', 'Pessoa Jurídica')
                 .find('input')
                 .click()
