@@ -1,0 +1,36 @@
+{
+  "personal": {
+    "name": "Fernando Papito",
+    "email": "papito@webdojo.com",
+    "phone": "11 99999-8888",
+    "consultancyType": "Individual",
+    "personType": "cpf",
+    "document": "15799908007",
+    "discoveryChannels": [
+      "Instagram",
+      "LinkedIn",
+      "Udemy",
+      "YouTube",
+      "Indicação de Amigo"
+    ],
+    "file": "cypress/fixtures/1.pdf",
+    "details": "Preciso de consultoria para automação E2E e boas práticas.",
+    "techs": ["cypress", "playwright"],
+    "terms": true
+  },
+  "inCompany": {
+    "name": "Fernando Papito",
+    "email": "papito@webdojo.com",
+    "phone": "11 99999-8888",
+    "consultancyType": "In Company",
+    "personType": "cnpj",
+    "document": "32353632562565",
+    "discoveryChannels": [
+      "Instagram"
+    ],
+    "file": "cypress/fixtures/1.pdf",
+    "details": "Preciso de consultoria para automação E2E e boas práticas.",
+    "techs": ["cypress", "playwright"],
+    "terms": true
+  }
+}
