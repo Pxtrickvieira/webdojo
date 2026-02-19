@@ -1,0 +1,19 @@
+meta {
+  name: Create new user
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3333/api/users/register
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Bruce Banner",
+    "email": "hulk@teste.com.br",
+    "password": "pwd123"
+  }
+}
