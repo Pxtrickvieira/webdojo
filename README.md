@@ -1,7 +1,7 @@
 # 🥷 WebDojo
 
 <p align="center">
-  <img src="docs/ninja.png" width="500"/>
+  <img src="ninja.png" width="500"/>
 </p>
 
 ---
